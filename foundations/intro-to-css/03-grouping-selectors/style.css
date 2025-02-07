@@ -5,13 +5,15 @@
 .click-me {
     background-color: black;
     color: white;
+    font-size: 28px;
 }
 
 .no-click-me {
     background-color: yellow;
-}
-
-.other {
     font-size: 28px;
     font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.body {
+    background-color: white;
 }
