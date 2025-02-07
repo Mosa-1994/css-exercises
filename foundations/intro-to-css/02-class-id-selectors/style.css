@@ -1,10 +1,10 @@
 /* Add your CSS here */
 
-#odd #odd-child{
+.odd .odd-child{
   background-color: lightcoral;
   font-family: Verdana, DejaVu Sans, sans-serif;
 }
-#odd-child {
+.odd-child {
     font-size: 24px;
   }
 #second {
