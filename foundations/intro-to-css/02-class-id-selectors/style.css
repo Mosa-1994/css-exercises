@@ -1,6 +1,6 @@
 /* Add your CSS here */
 
-.odd .odd-child{
+.odd{
   background-color: lightcoral;
   font-family: Verdana, DejaVu Sans, sans-serif;
 }
