@@ -4,7 +4,7 @@
   background-color: lightcoral;
   font-family: Verdana, DejaVu Sans, sans-serif;
 }
-.odd-child {
+.font-size {
     font-size: 24px;
   }
 #second {
@@ -13,6 +13,5 @@
 }
 #fourth {
   background-color: lightgreen;
-  font-size: 24px;
   font-weight: bold;
 }
