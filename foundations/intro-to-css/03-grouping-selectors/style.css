@@ -2,18 +2,17 @@
 - **The second element**: a yellow background
 - **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback */
 
-.click-me {
+.click {
     background-color: black;
     color: white;
     font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
 }
-
-.no-click-me {
+.no-me {
     background-color: yellow;
     font-size: 28px;
     font-family: Helvetica, 'Times New Roman', sans-serif;
 }
-
-.body {
+#id {
     background-color: white;
 }
