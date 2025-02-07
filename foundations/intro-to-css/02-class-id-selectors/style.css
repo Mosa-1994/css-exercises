@@ -1,24 +1,18 @@
 /* Add your CSS here */
 
-.odd .odd-child{
+#odd #odd-child{
   background-color: lightcoral;
   font-family: Verdana, DejaVu Sans, sans-serif;
 }
-.odd-child {
+#odd-child {
     font-size: 24px;
   }
-.second {
+#second {
   color: blue;
   font-size: 36px;
 }
-.fourth {
+#fourth {
   background-color: lightgreen;
   font-size: 24px;
   font-weight: bold;
 }
-
-
-
-/* **The second element**: blue text and a font size of 36px
-* **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
-* **The fourth element**: a light green background, a font size of 24px, and bold */
