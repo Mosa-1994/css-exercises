@@ -2,6 +2,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* First two lines */
+
 .para .small-para {
   color: hsl(0, 0%, 0%);
 }
@@ -16,16 +18,32 @@ body {
   font-size: 14px;
 }
 
-.confirm {
-  background: green;
+/* Confirm en Cancel button */
+
+#confirm-button {
+  background-color: green;
   color: white;
+}
+
+.confirm {
   font-weight: bold;
 } 
 
+#cancel-button {
+  background-color: white;
+  color: black;
+}
+
 .button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
   font-size: 20px;
+}
+
+/* last 3 lines */
+
+.text .child{
+  color: black;
+  font-size: 14px;
+  font-weight: 800;
 }
 
 .child {
