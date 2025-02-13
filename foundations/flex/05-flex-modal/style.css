@@ -34,6 +34,13 @@ body {
   padding: 16px;
 }
 
+.buttons {
+  display: flex;
+  justify-content: end;
+  margin-top: 16px;
+  gap: 10px;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
