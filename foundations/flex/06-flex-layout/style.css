@@ -10,25 +10,26 @@ body {
 
 .flex-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .header {
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
 }
 
 .left-links {
   display: flex;
-  align-items: flex-start;
-  justify-content: left;
+  align-items: center;
+  justify-self: left;
   gap: 10px;
 }
 
 .right-links {
   display: flex;
   align-items: flex-start;
-  justify-content: right;
+  justify-self: right;
   gap: 10px;
   padding-right: 10px;
 }
@@ -41,8 +42,11 @@ body {
 }
 
 .footer {
+  background-color: grey;
   display: flex;
-  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: end;
 }
 
 img {
