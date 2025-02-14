@@ -5,6 +5,26 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  gap: 10px;
+}
+
+.right-links {
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  gap: 10px;
 }
 
 img {
